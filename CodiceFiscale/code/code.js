@@ -268,7 +268,7 @@ function codiceControllo(){
         }
 
     }
-    for(let k = 0; k < codice.length; k+2){
+    for(let k = 1; k < codice.length; k+2){
         if(codice[x]=="0"){
             cDispari+=0;
         }
