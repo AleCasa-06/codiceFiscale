@@ -157,7 +157,7 @@ function estraiDaComune(){
 function codiceControllo(){
     let cPari = 0; 
     let cDispari = 0; 
-    for(let x = 0; x < codice.length; x+2){
+    for(let x = 0; x < codice.length; x+=2){
         if(codice[x]=="0"){
             cPari+=1;
         }
@@ -268,113 +268,113 @@ function codiceControllo(){
         }
 
     }
-    for(let k = 1; k < codice.length; k+2){
-        if(codice[x]=="0"){
+    for(let k = 1; k < codice.length; k+=2){
+        if(codice[k]=="0"){
             cDispari+=0;
         }
-        else if(codice[x]=="1"){
+        else if(codice[k]=="1"){
             cDispari+=1;
         }
-        else if(codice[x]=="2"){
+        else if(codice[k]=="2"){
             cDispari+=2;
         }
-        else if(codice[x]=="3"){
+        else if(codice[k]=="3"){
             cDispari+=3;
         }
-        else if(codice[x]=="4"){
+        else if(codice[k]=="4"){
             cDispari+=4;
         }
-        else if(codice[x]=="5"){
+        else if(codice[k]=="5"){
             cDispari+=5;
         }
-        else if(codice[x]=="6"){
+        else if(codice[k]=="6"){
             cDispari+=6;
         }
-        else if(codice[x]=="7"){
+        else if(codice[k]=="7"){
             cDispari+=7;
         }
-        else if(codice[x]=="8"){
+        else if(codice[k]=="8"){
             cDispari+=8;
         }
-        else if(codice[x]=="9"){
+        else if(codice[k]=="9"){
             cDispari+=9;
         }
-        else if(codice[x]=="A"){
+        else if(codice[k]=="A"){
             cDispari+=0;
         }
-        else if(codice[x]=="B"){
+        else if(codice[k]=="B"){
             cDispari+=1;
         }
-        else if(codice[x]=="C"){
+        else if(codice[k]=="C"){
             cDispari+=2;
         }
-        else if(codice[x]=="D"){
+        else if(codice[k]=="D"){
             cDispari+=3;
         }
-        else if(codice[x]=="E"){
+        else if(codice[k]=="E"){
             cDispari+=4;
         }
-        else if(codice[x]=="F"){
+        else if(codice[k]=="F"){
             cDispari+=5;
         }
-        else if(codice[x]=="G"){
+        else if(codice[k]=="G"){
             cDispari+=6;
         }
-        else if(codice[x]=="H"){
+        else if(codice[k]=="H"){
             cDispari+=7;
         }
-        else if(codice[x]=="I"){
+        else if(codice[k]=="I"){
             cDispari+=8;
         }
-        else if(codice[x]=="J"){
+        else if(codice[k]=="J"){
             cDispari+=9;
         }
-        else if(codice[x]=="K"){
+        else if(codice[k]=="K"){
             cDispari+=10;
         }
-        else if(codice[x]=="L"){
+        else if(codice[k]=="L"){
             cDispari+=11;
         }
-        else if(codice[x]=="M"){
+        else if(codice[k]=="M"){
             cDispari+=12;
         }
-        else if(codice[x]=="N"){
+        else if(codice[k]=="N"){
             cDispari+=13;
         }
-        else if(codice[x]=="O"){
+        else if(codice[k]=="O"){
             cDispari+=14;
         }
-        else if(codice[x]=="P"){
+        else if(codice[k]=="P"){
             cDispari+=15;
         }
-        else if(codice[x]=="Q"){
+        else if(codice[k]=="Q"){
             cDispari+=16;
         }
-        else if(codice[x]=="R"){
+        else if(codice[k]=="R"){
             cDispari+=17;
         }
-        else if(codice[x]=="S"){
+        else if(codice[k]=="S"){
             cDispari+=18;
         }
-        else if(codice[x]=="T"){
+        else if(codice[k]=="T"){
             cDispari+=19;
         }
-        else if(codice[x]=="U"){
+        else if(codice[k]=="U"){
             cDispari+=20;
         }
-        else if(codice[x]=="V"){
+        else if(codice[k]=="V"){
             cDispari+=21;
         }
-        else if(codice[x]=="W"){
+        else if(codice[k]=="W"){
             cDispari+=22;
         }
-        else if(codice[x]=="X"){
+        else if(codice[k]=="X"){
             cDispari+=23;
         }
-        else if(codice[x]=="Y"){
+        else if(codice[k]=="Y"){
             cDispari+=24;
         }
-        else if(codice[x]=="Z"){
+        else if(codice[k]=="Z"){
             cDispari+=25;
         }
     }
